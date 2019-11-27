@@ -7,7 +7,7 @@
 		
 		<link rel="stylesheet" type="text/css" href="../css/login.css">
 	</head>
-	<body>
+	<body>	
 		<form action="${pageContext.request.contextPath}/login/login" method="post">
 			<div class="login_box">
 				<div class="left col_50">
@@ -31,7 +31,7 @@
 						<input type="submit" value="登录" />
 					</div>
 					<div class="row_1">
-						<a href="register.html" class="color_blue a_right">立即注册</a>
+						<a href="${pageContext.request.contextPath}/registe/toRegiste" class="color_blue a_right">立即注册</a>
 					</div>
 				</div>
 			</div>

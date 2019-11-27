@@ -28,9 +28,9 @@
 						if(data == "IsAjax"){
 							window.location.href = path +"/login/toLogin";
 						}else if (data == true) {
-							$("#course_"+id).text("购买成功").css("color","green");
+							$("#course_"+id).text("加入购物车成功").css("color","green");
 						} else if(data == false){
-							$("#course_"+id).text("你已购买过此商品").css("color","red");
+							$("#course_"+id).text("购物车中已有此商品").css("color","red");
 						}
 					}
 				});	

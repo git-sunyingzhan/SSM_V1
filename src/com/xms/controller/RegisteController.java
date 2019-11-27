@@ -1,6 +1,5 @@
 package com.xms.controller;
 
-import java.sql.Timestamp;
 import java.util.Random;
 
 import javax.servlet.http.HttpServletRequest;

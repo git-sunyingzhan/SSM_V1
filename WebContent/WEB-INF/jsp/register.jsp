@@ -12,11 +12,9 @@
 		<script type="text/javascript" src="../js/register.js"></script>
 	</head>
 	<body>
-		<div class="head">
-			<div class="auto">
-				<img src="../images/logo.png">
-			</div>
-		</div>
+		<!-- 引入头部 -->
+		<%@ include file="header.jsp" %>
+		
 		<div class="auto register_box">
 			<form action="${pageContext.request.contextPath}/registe/registe" method="post">
 				<h3>新用户注册</h3>
