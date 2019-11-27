@@ -1,5 +1,20 @@
-create database oepcode;
-use oepcode;
+create database xmscode;
+use xmscode;
+
+#管理员表
+create table xc_admin(
+	id int(4) primary key auto_increment,
+	realname varchar(15) not null,
+	account varchar(30) not null unique,
+	password varchar(12) not null,
+	email varchar(50) unique
+);
+
+insert into xc_admin values
+(null,'管理员','admin','admin','111111@163.com'),
+(null,'管理员','admin1','admin1','222222@163.com'),
+(null,'管理员','admin2','admin2','333333@163.com'),
+(null,'管理员','admin3','admin3','444444@163.com');
 
 #User表
 create table oep_user(
