@@ -87,7 +87,7 @@
 								</p>
 								<p class="level">实战 初级</p>
 								<p class="price"><span>¥${demoCourse.price}</span>
-								<span class="right buy" onclick="buy(${demoCourse.id});">点击购买</span></p>
+								<span class="right buy" onclick="buy(${demoCourse.id});">加入购物车</span></p>
 								<p><span id="course_${demoCourse.id}"></span></p>
 							</div>
 						</div>
@@ -111,7 +111,7 @@
 								</p>
 								<p class="level">基础 初级</p>
 								<p class="price"><span>¥${newCourse.price}</span>
-								<span class="right buy" onclick="buy(${newCourse.id});">点击购买</span></p>
+								<span class="right buy" onclick="buy(${newCourse.id});">加入购物车</span></p>
 								<p><span id="course_${newCourse.id}"></span></p>
 							</div>
 						</div>
@@ -121,14 +121,6 @@
 			<!--  -->
 		</div>
 		<!-- foot -->
-		<div class="foot">
-			<a href="#">关于我们</a>
-			<a href="#">最新动态</a>
-			<a href="#">代理合作</a>
-			<span>南京学码思科技教育有限公司</span>       
-			<span>@2017</span> 
-			<span>京ICP备</span>
-			<span>1234567号</span>      
-		</div>
+		<%@include file="foot.jsp" %>
 	</body>
 </html>
