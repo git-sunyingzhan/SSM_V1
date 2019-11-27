@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-	<title>登录</title>
+	<title>管理员登录</title>
 	<link rel="stylesheet" type="text/css" href="../css/login.css">
 </head>
 <body class="login_body">
