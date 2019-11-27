@@ -28,11 +28,9 @@ public class LoginController {
 		User user = userMapper.findUserByEmail(email);
 		
 		if (user == null || !user.getPassword().equals(password)) {
-			//ÕËºÅ»òÃÜÂë´íÎó
-			request.setAttribute("message","ÕËºÅ»òÃÜÂë´íÎó");
+			request.setAttribute("message","è´¦å·æˆ–å¯†ç é”™è¯¯");
 			return "jsp/login";
 		} else{
-			//ÕËºÅºÍÃÜÂëÕıÈ·
 			request.getSession().setAttribute("user",user);
 			return "redirect:/main/toIndex";
 		}
